@@ -1,0 +1,21 @@
+/* タブレット向け */
+@media all and (max-width: 670px){
+  /* .lesson {
+    width: 50%;
+  } */
+  .footer-logo {
+    position: relative;
+    top: 100px;
+    left:105px;
+  }
+  .profile h2 {
+    font-size: 62px;
+  }
+  footer {
+    text-align: center;
+  }
+}
+/* パソコン向け */
+@media all and (min-width: 1000px) {
+
+}

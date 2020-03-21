@@ -1,0 +1,285 @@
+*{
+margin:0;
+padding:0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+li{
+  list-style:none;
+}
+
+a {
+  text-decoration: none
+}
+
+.header img{
+  margin:0;
+  width:985px;
+ height: 154.66px;
+   /* background-color: #E9E9E9;
+  color:#808080;
+  height: 150px;
+  width: 100%; */
+
+}
+/* .header-logo {
+
+  font-size:60px;
+  font-weight: bold;
+  padding:10px 40px;
+  padding-top: 30px;
+  color:#707070;
+
+}
+img.awsome-book{
+  zoom:2.3;
+  vertical-align: middle;
+} */
+.main {
+  background-color: #FFFFFF;
+  /* height: 1236px; */
+}
+/* 商品画像 */
+.setting {
+   display: flex;
+   font-size: 40px;
+   padding-bottom: 6px;
+   border-bottom:1px solid #c1c1c1;
+}
+
+/* 値段 */
+.price-main {
+  padding-left: 31px;
+  padding-right: 76px;
+  z-index:10;
+}
+/* 編集ボタン */
+.btn-square {
+  font-size: 60px;
+   padding-bottom: 8px;
+   padding-top: 8px;
+   width: 25%;
+   color: white;
+   display: inline-block;
+   opacity: 0.8;
+   border-radius: 4px;
+   text-align: center;
+   background-color:rgba(53,175, 243, 0.9);
+ }
+ /*ボタンを押したとき*/
+.btn-square:hover{
+  background-color:rgba(53,175, 243, 1);
+  color: #fff;
+}
+/* プロフィール */
+
+/* プロフィール画 */
+img.example1{
+  zoom: 2.5;
+  padding-top: 10px;
+}
+/* 太郎と評価に間隔を空ける */
+.contents-item {
+  padding-top: 40px;
+  float:left;
+  /* border-bottom:1px solid #c1c1c1; */
+}
+/* .contents-item img{
+  float:left;
+  height:80px;
+  padding-right: 10px;
+} */
+
+.contents-item h2 {
+  font-size: 40px;
+}
+.contents{
+  height:220px;
+  border-bottom:1px solid #c1c1c1;
+  display: flex;
+}
+
+/* 立命太郎 */
+.section-title img {
+  height: 180px;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.tarou {
+  display: flex;
+}
+.tarou h2{
+  font-size: 45px;
+}
+.tarou p {
+  color: #867D7D;
+  font-size: 45px;
+  padding-top: 3px;
+}
+/* 評価（ニコニコマーク） */
+
+.gazou{
+  display: flex;
+  float:left;
+  padding-left: 10px;
+  padding-top :20px;
+
+}
+.gazou img {
+  height: 50px;
+}
+.gazou p{
+  color: #867D7D;
+  float: left;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+.introduction1 p {
+  font-size:40px;
+}
+.hoi p{
+  border-bottom:1px solid #c1c1c1;
+  padding-top: 10px;
+  padding-left: 14px;
+  padding-bottom: 6px;
+}
+.hoi1 p {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
+}
+.hoi2 p {
+  color: #9B9B9B;
+  padding-left: 14px;
+
+
+}
+.hoi3 {
+  border-bottom:1px solid #c1c1c1;
+  padding-bottom: 15px;
+
+}
+.introduction h2 {
+  padding:20px;
+  border-bottom:1px solid #c1c1c1;
+}
+
+/* コメントのボタン */
+.comment {
+  width: 3700px;
+  padding: 20px;
+}
+.btn-square-shadow2 {
+ zoom: 4;
+  padding-bottom: 8px;
+  margin:0 auto;
+  padding-top: 8px;
+  width: 25%;
+  /*margin: 4px 0;*/
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  background-color:rgba(206,206, 206, 0.9);
+}
+.btn-square-shadow2:hover {
+  background-color: rgba(206,206,206,1);
+  /*ボタンを押したとき*/
+  /* padding-bottom: 8px;
+  padding-top: 8px;
+  width: 25%; */
+  /*margin: 4px 0;*/
+   /* color: #9B9B9B;/*文字の色 */
+  /* display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  background-color:#CECECE; */
+}
+
+/* 編集するのボタン */
+.edit1 {
+  width: 3700px;
+  padding: 20px;
+}
+
+.btn-square3 {
+    zoom: 4;
+    padding-bottom: 8px;
+    margin:0 auto;
+    padding-top: 8px;
+    width: 25%;
+    /*margin: 4px 0;*/
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    background-color:rgba(53,175, 243, 0.9);
+}
+
+.btn-square3:hover {
+  background-color:rgba(53,175, 243, 1);
+}
+
+/* 他の出品者による同一商品画像 */
+.shouhin7 {
+  position: relative;
+}
+
+.shouhin7 h2 {
+  font-size: 40px;
+  padding-top: 45px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+}
+
+/* 値段 */
+.Rectangle {
+
+}
+
+.price1 {
+
+  padding-right: 130px;
+  padding-left: 20px;
+  padding-top:250px;
+
+
+  position: relative;
+}
+.price1 h1 {
+position: absolute;
+top:260px;
+padding-right: 30px;
+z-index: 10;
+
+}
+/* フッター */
+.footer {
+  background-color: #E9E9E9;
+  padding:40px ;
+display:
+}
+.footer-logo{
+  height: 30px;
+  font-size:42px;
+  /* padding: 0px auto; */
+  color: #707070;
+  font-weight: bold;
+  float:left;
+
+}
+.footer-list{
+  float:right;
+}
+.footer-list li{
+  padding-bottom:20px;
+  z-index:8;
+}

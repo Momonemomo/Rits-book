@@ -1,0 +1,19 @@
+/* パソコン画面向けレイアウト */
+ @media(min-width:767px){
+.main{
+  background-color: #00FFFF; /*青色*/
+  }
+}
+
+/* タブレット向けレイアウト */
+ @media(max-width: 767px){
+   .main{
+     background-color: red;
+   }
+  .contents-item gazou1{
+    width:25%;
+  }
+  .contents-item gazou{
+    height: 100px;
+  }
+}
